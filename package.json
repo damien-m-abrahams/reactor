@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Udemy Course for React",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damien-m-abrahams/reactor"
+  },
+  "author": "Damien Abrahams",
+  "license": "ISC"
+}
