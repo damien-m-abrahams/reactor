@@ -1,0 +1,16 @@
+{
+  "name": "vite-project",
+  "image":"mcr.microsoft.com/devcontainers/universal:2",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {},
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "React App",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "updateContentCommand": "npm install",
+  "postAttachCommand": "npm run dev"
+}
